@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+!backend/.env.example
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+.pytest_cache/
+.tmp/
+.pip_cache/
+
+# Data and artifacts
+backend/artifacts/*.joblib
+backend/artifacts/*.json
+backend/artifacts/*.csv
+backend/artifacts/*.pkl
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
